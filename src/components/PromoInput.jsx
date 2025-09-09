@@ -1,0 +1,1 @@
+export default function PromoInput(){return <div>Promo</div>}
