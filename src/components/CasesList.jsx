@@ -1,1 +1,0 @@
-export default function CasesList(){return <div>Cases</div>}
