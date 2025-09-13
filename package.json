@@ -1,11 +1,12 @@
 {
-  "name": "gifts-battle",
-  "version": "0.3.0",
+  "name": "project_v3_fullstack",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node build.js",
+    "build": "cd frontend && npm ci && npm run build",
+    "start": "node server.js",
     "preview": "vite preview"
   },
   "dependencies": {
