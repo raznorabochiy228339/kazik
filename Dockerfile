@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Устанавливаем зависимости
 COPY package*.json ./
-RUN npm ci --silent
+RUN npm ci --include=dev
 
 # Копируем весь фронт (он у тебя в корне)
 COPY . .
